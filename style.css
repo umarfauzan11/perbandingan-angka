@@ -12,7 +12,7 @@ body {
   align-items: center;
   flex-direction: column;
 
-  background: linear-gradient(135deg, #0f172a, #1e293b, #334155);
+  background: #1e293b;
 
   color: white;
 }
@@ -91,8 +91,6 @@ input::placeholder {
 
 input:focus {
   border: 1px solid #facc15;
-
-  box-shadow: 0 0 15px rgba(250, 204, 21, 0.5);
 }
 
 button {
@@ -114,9 +112,7 @@ button {
 }
 
 button:hover {
-  transform: translateY(-3px);
-
-  box-shadow: 0 10px 25px rgba(250, 204, 21, 0.4);
+    background: white;
 }
 
 button:active {
